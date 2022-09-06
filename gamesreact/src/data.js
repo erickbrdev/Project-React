@@ -1,4 +1,4 @@
-const movies = [
+const games = [
     {
       title: 'Need for Speed Underground 2',
       subtitle: 'Need for Speed Underground',
@@ -36,4 +36,4 @@ const movies = [
     },
   ];
   
-  export default movies;
+  export default games;
