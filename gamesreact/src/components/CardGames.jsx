@@ -1,6 +1,6 @@
 // import { render } from "enzyme";
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import Rating from './Rating';
 
 class CardGames extends React.Component {
@@ -23,3 +23,12 @@ class CardGames extends React.Component {
     );
   }
 }
+
+CardGames.propTypes = {
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    storyline: PropTypes.string,
+    imagePath: PropTypes.string,
+  }.isRequired;
+  
+  export default CardGames;
