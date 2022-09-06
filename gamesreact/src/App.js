@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import ListMovies from './components/MovieList';
-// import CardMovie from './components/MovieCard';
+import GamesList from './components/ListGames';
+
 
 function App() {
   return (
     <div>
       <Header />
-      
+      <GamesList />
     </div>
   );
 }
